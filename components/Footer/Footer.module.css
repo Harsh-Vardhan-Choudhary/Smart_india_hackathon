@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+.footerfirst{
+    width: 100%;
+    background-color: #C7B569;
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+}
+.f_clas{
+    margin: auto;
+    width: 75vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+}
+@media only screen and (max-width: 800px) {
+    .f_clas{
+        height: 7.5vh;
+    }
+  }
+.f_features{
+    width: 70%;
+    font-size: 2vw;
+    font-weight: bold;
+}
+.f_about{
+    width: 10%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.f_blog{
+    width: 10%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.f_support{
+    width: 10%;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 75vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+@media only screen and (max-width: 800px) {
+    .icons{
+        height: 10vh;
+    }
+  }
+.iconfirst{
+    width: 30%;
+    font-size: 3vw;
+    align-self: center;
+}
+.icontwo{
+    font-size: 2vw;
+    align-self: center;
+    font-weight: bold;
+}
+.footersecond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    font-size: 1.25vw;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #726046;
+    color: white;
+    width: 100%;
+
+}
+@media only screen and (max-width: 800px) {
+    .footersecond{
+        height: 4vh;
+    }
+  }
+.sample2{
+    margin: 1rem auto 0rem auto;
+    width: 75vw;
+    height: 0.2vw; 
+    background-color: black;
+}

@@ -1,16 +1,31 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body{
+background-color: var(--background--nightmode);
+color: var(--text--primary);
+overflow-x: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root{
+--background--color: #fef1e6;
+--color--orange: #f9d5a7;
+--color--darkorange: #ffb085;
+--color--blue: #90aacb;
 }
 
-* {
-  box-sizing: border-box;
+::-webkit-scrollbar-track{
+	border: 1px solid #C7B569;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar{
+	width: 0.5vw;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #C7B569;	
 }
