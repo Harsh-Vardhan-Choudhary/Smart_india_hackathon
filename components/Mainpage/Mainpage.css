@@ -1,14 +1,16 @@
-.button{
+.button {
     position: absolute;
     top: 0;
     left: 94%;
 }
+
 @media only screen and (max-width: 800px) {
-    .button{
+    .button {
         left: 80%;
     }
-  }
-.div_main{
+}
+
+.div_main {
     width: 75vw;
     margin: 3vh auto;
     background-color: var(--color--orange);
