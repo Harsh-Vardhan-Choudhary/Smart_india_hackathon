@@ -22,10 +22,10 @@ export default function Home() {
       </div>
       <div className={styles.btn}>
         <div className={styles.btn1}>
-          <Link href="./Sortedscholarship"><button type={styles.text}> browse more  </button></Link>
+          <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
         </div>
         <div className={styles.btn1}>
-          <button type={styles.text}> no use of this button </button>
+          <button type={styles.text}> View All Scholarship </button>
         </div>
       </div>
       <div className={styles.card}>

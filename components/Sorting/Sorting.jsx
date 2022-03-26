@@ -1,5 +1,7 @@
 import React from 'react'
-import "./Sorting.module.css"
+import styles from "./Sorting.module.css"
+
+import Link from 'next/link';
 
 export default function Sorting() {
     return (
@@ -7,89 +9,87 @@ export default function Sorting() {
             <h1 class="w">Welcome</h1>
             <p>For Academic year 2022-23</p>
             <p>Fill in the entries appropriately.</p>
-            <div class="container">
-                <div class="title">Registration</div>
+            <div className={styles.container}>
+                <div className={styles.title}>Registration</div>
                 <form action="#">
-                    <div class="user-details">
-                        <div class="input-box">
-                            <span class="details">Student Name</span>
+                    <div className={styles.user_details}>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Student Name</span>
                             <input type="text" placeholder="Enter your name" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Date of birth</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Date of birth</span>
                             <input type="text" placeholder="as per 10th marksheet" required></input>
                         </div>
-                        <div class="gender-details">
+                        <div className={styles.gender_details}>
                             <input type="radio" name="gender" id="dot-1"></input>
                             <input type="radio" name="gender" id="dot-2"></input>
                             <input type="radio" name="gender" id="dot-3"></input>
-                            <span class="gender-title">choose your gender</span>
+                            <span className={styles.gender_title}>choose your gender</span>
 
-                            <div class="category">
+                            <div className={styles.category}>
                                 <label for="dot-1">
-                                    <span class="dot one"></span>
-                                    <span class="gender">Male</span>
+                                    <span className={styles.dot_one}></span>
+                                    <span className={styles.gender}>Male</span>
                                 </label>
                                 <label for="dot-2">
-                                    <span class="dot two"></span>
-                                    <span class="gender">Female</span>
+                                    <span className={styles.dot_two}></span>
+                                    <span className={styles.gender}>Female</span>
                                 </label>
                                 <label for="dot-3">
-                                    <span class="dot three"></span>
-                                    <span class="gender">Other</span>
+                                    <span className={styles.dot_three}></span>
+                                    <span className={styles.gender}>Other</span>
                                 </label>
                             </div>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Family's net income</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Family's net income</span>
                             <input type="text" placeholder="In Rs." required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Competitive exam given?</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Competitive exam given?</span>
                             <input type="text" placeholder="yes or no" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Domicile:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Domicile:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Minority</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Minority</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Religion:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Religion:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Religion:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Religion:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Enter your category:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Enter your category:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Country name:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Country name:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">Nationality:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>Nationality:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">jee/neet/other's percentile:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>jee/neet/other's percentile:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-                        <div class="input-box">
-                            <span class="details">marks in 10th & 12th:</span>
+                        <div className={styles.input_box}>
+                            <span className={styles.details}>marks in 10th & 12th:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
-
-
                     </div>
                     <div>
-                        <input class="button" type="submit" value="Find for me"></input>
-                    </div>
+                    <Link href="./Sortedscholarship"><input className={styles.button} type="submit" value="Find for me"></input></Link>
+                    </div> 
                 </form>
             </div>
         </>

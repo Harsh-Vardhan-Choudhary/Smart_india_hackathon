@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./Scholarship_card.module.css"
 
+import Link from 'next/link';
+
 export default function Scholarship_card() {
     return (
         <>
@@ -8,7 +10,7 @@ export default function Scholarship_card() {
                 <div className={styles.actualcard}>
                     <div className={styles.imagecard}>
                         <img className={styles.imagecardinner} src="/images/download.jpeg" alt="" />
-                        <button className={styles.buttoncard} type="button">View More</button>
+                        <Link href="./Scholarshipeleborated"><button className={styles.buttoncard} type="button">View More</button></Link>
                     </div>
                     <div className={styles.contentcard}>
                         <h1>Scholarship Name</h1>

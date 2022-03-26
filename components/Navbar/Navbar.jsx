@@ -1,28 +1,30 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
 
+import Link from 'next/link';
+
 export default function Navbar() {
   return (
     <>
       <nav className={styles.nav}>
-        <div className={styles.logo}>Website name</div>
+        <div className={styles.logo} href="./">Website name</div>
         <ul className={styles.nav_ul}>
           <li className={styles.nav_ul_li}>
-            <a href="#" className={styles.nav_ul_li_a}>Home</a>
+            <a href="./" className={styles.nav_ul_li_a}>Home</a>
           </li>
           <li className={styles.nav_ul_li}>
-            <a href="#" className={styles.nav_ul_li_a}>About</a>
+            <a href="./Aboutus" className={styles.nav_ul_li_a}>About</a>
             <ul className={styles.nav_ul_ul}>
               <li className={styles.nav_ul_ul_li}>
-                <a href="#" className={styles.nav_ul_ul_li_a}>our team</a>
+                <a href="./Aboutus" className={styles.nav_ul_ul_li_a}>our team</a>
               </li>
               <li className={styles.nav_ul_ul_li}>
-                <a href="#" className={styles.nav_ul_ul_li_a}>The need</a>
+                <a href="./" className={styles.nav_ul_ul_li_a}>The need</a>
               </li>
             </ul>
           </li>
           <li className={styles.nav_ul_li}>
-            <a href="#" className={styles.nav_ul_li_a}>Categories</a>
+            <a href="./Sorting" className={styles.nav_ul_li_a}>Categories</a>
             <ul className={styles.nav_ul_ul}>
               <li className={styles.nav_ul_ul_li}>
                 <a href="#" className={styles.nav_ul_ul_li_a}>International scholarships</a>
