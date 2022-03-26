@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-/* nav {
-    background: #cacaca;
-    margin-bottom: 500px;
-}
-=======
 .nav{
     background:#cacaca;
     margin-bottom: 1rem;
@@ -13,67 +7,41 @@
     content:'';
     clear:both;
     display:table;
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
-
-nav:after {
+}
+.nav:after {
     content: '';
     clear: both;
     display: table;
 }
 
-<<<<<<< HEAD
-nav ul {
-=======
 .nav_ul{
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     float: right;
     list-style: none;
     margin-right: 70px;
     position: relative;
 }
-<<<<<<< HEAD
-
-nav ul li {
-=======
 .nav_ul_li{
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     float: left;
     display: inline-block;
     background: #cacaca;
     margin: 0 5px;
 }
-<<<<<<< HEAD
-
-nav ul li a {
-=======
 .nav_ul_li_a{
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     color: black;
     text-decoration: none;
     line-height: 70px;
     font-size: 18px;
     padding: 8px 15px;
-<<<<<<< HEAD
-}
-
-nav ul ul {
-=======
 } 
 
 .nav_ul_ul{
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     position: absolute;
     top: 90px;
     opacity: 0;
     visibility: hidden;
     transition: top .3s;
 }
-<<<<<<< HEAD
-
-nav ul ul li {
-=======
 .nav_ul_ul_li{
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     position: relative;
     margin: 0px;
     width: 250px;
@@ -81,14 +49,8 @@ nav ul ul li {
     display: list-item;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
-<<<<<<< HEAD
-
-nav ul ul ul li {
-    position: realtive;
-=======
 .nav_ul_ul_ul_li{
     position:realtive;
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     top: -70px;
     left: 150px;
 }
@@ -100,18 +62,6 @@ nav ul ul ul li {
     line-height: 70px;
     padding-left: 30px;
 }
-<<<<<<< HEAD
-
-nav ul li a:hover {
-    box-shadow: 0 0 5px #f2f2f2, 0 0 5px #f2f2f2;
-    border-radius: 5px;
-    color: blueviolet;
-}
-
-nav ul li :hover>ul,
-ul li:focus-within>ul,
-ul li ul:hover {
-=======
 .nav_ul_li_a:hover{
     box-shadow:0 0 5px #f2f2f2,
                0 0 5px #f2f2f2;
@@ -122,23 +72,11 @@ ul li ul:hover {
 .nav_ul_li:hover > ul,
 .ul_li:focus-within > ul,
 .ul_li_ul:hover{
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
     visibility: visible;
     opacity: 1;
     display: block;
     top: 70px;
 }
-<<<<<<< HEAD
-
-nav ul ul li a {
-    line-height: 50px;
-}
-
-nav ul ul li a:hover {
-    color: blueviolet;
-    box-shadow: none;
-} */
-=======
 .nav_ul_ul_li_a{
     line-height: 50px;
 }
@@ -146,4 +84,3 @@ nav ul ul li a:hover {
     color: blueviolet;
     box-shadow: none;
 } 
->>>>>>> 22a8f3fb2d6fc7ed0e39406dde7fedf5659f675a
