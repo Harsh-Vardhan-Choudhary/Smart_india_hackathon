@@ -20,16 +20,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Scholarshipeleborated": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Scholarshipeleborated.js"
-    ],
-    "/Sortedscholarship": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Sortedscholarship.js"
-    ],
     "/Sortingpage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

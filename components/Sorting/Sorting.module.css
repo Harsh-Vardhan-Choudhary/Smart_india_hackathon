@@ -1,39 +1,57 @@
-/* *{
+/**{
     margin:0;
     padding:0;
     box-sizing:border-box;
     font-family: poppins,sans-serif;
-}
-body{
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Spartan:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=IBM+Plex+Sans+Thai:wght@300&family=Spartan:wght@200;300&display=swap');
+
+/*.body{
     display: flex;
     height: 200vh;
-    /*justify-content: center;
+    justify-content: center;
     align-items: center;
     padding: 60px;
     background:#cacaca;
+    
+    
    
-} */
+}*/
 .container{
     max-width: 700px;
     width: 100%;
     background: #f2f2f2;
     padding: 25px 30px;
     border-radius: 5px;
-}
-/*.w{
-    font-size: 25px;
-    font-weight: 500;
+
     position: relative;
-    left: 50px;
+    left: 300px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 100px;
+    
+}
+.w{
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    left: 550px;
+    font-family: 'Spartan', sans-serif;
+   
 
-}*/
-.container.title{
+}
+.title{
     font-size: 25px;
     font-weight: 500;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+
 
 
 }
-.container .title::before{
+.title::before{
     content: '';
     position: absolute;
     left: 0;
@@ -41,21 +59,24 @@ body{
     height: 3px;
     width: 30px;
     background: black;
-    
+   
 }
-.container .form .user-details{
+.user_details{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+   
 }
-form .user-details .input-box{
+.input_box{
     margin-bottom: 5px;
     width: calc(100% / 2 - 20px);
+  
 
     
 }
-.user-details .input-box input{
+.input{
     height: 45px;
     width: 100%;
     outline: none;
@@ -65,36 +86,43 @@ form .user-details .input-box{
     font-size: 16px;
     border-bottom-width:10px;
     transition: all 0.3s ease;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    
 
 }
-.user-details .input-box .details{
+.details{
     font-weight: 500;
     margin-bottom: 5px;
     display: block;
+   
 
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+.input_box_input:focus,
+.input_box_input:valid{
     border-color: #cacaca;
+ 
 
 }
-form .gender-details .gender-title{
+.title{
     font-size: 20px;
     font-weight: 500;
+   
 }
-form .gender-details .category{
+.category{
     width: 80%;
     
     display: flex;
 justify-content: space-between;
 margin: 14px 0;
-}
-form .gender-details .category label{
-    display: flex;
-    align-items: center;
 
 }
-.gender-details .category .dot{
+.label{
+    display: flex;
+    align-items: center;
+   
+
+}
+.dot{
     height: 18px;
     width: 18px;
     background:blueviolet;
@@ -102,22 +130,27 @@ form .gender-details .category label{
     margin-right: 10px;
     border: 5px solid transparent;
     transition: all 0.3s ease;
+   
 }
-#dot-1:checked ~ .category label .one,
-    #dot-2:checked ~ .category label .two,
-        #dot-3:checked ~ .category label .three{
+.A_dot_1:checked ~.category_label.one,
+    .A_dot_2:checked ~ .category_label.two,
+        .A_dot_3:checked ~ .category_label.three{
     border-color: blueviolet;
     background: #cacaca;
+    
 
 }
-/* form input[type="radio"]{
+.input[type="radio"]{
     display: none;
-} */
-form.button{
- height: 45px;
- margin: 45px 0;   
+    
 }
-form.button input{
+.button{
+ height: 45px;
+ margin: 45px 0;
+ 
+  
+}
+.button{
     height: 100%;
     width: 100%;
     outline: none;
@@ -128,9 +161,34 @@ form.button input{
     letter-spacing: 1px;
     border: none;
     border-radius: 5px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    
 
 }
-form.button input:hover{
+.button:hover{
     background: linear-gradient(135deg, #71b7e6 ,#9b59b6);
+    
+    
 
+}
+.o{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 530px;
+    
+    
+}
+.k{
+    
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 390px;
+    
+  
+}
+.tudum{
+    position: relative;
+    left: 200px;
 }
