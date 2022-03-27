@@ -19,21 +19,18 @@ export default function Aboutus() {
             <div className={styles.row}>
                 <div className={styles.column}>
                     <img className={styles.im5}
-
                         src="images/beard.png"
                         alt="m1"
                     />
                 </div>
                 <div className={styles.column}>
                     <img className={styles.im4}
-
                         src="images/woman (1).png"
                         alt="m4"
 
                     /></div>
                 <div className={styles.column}>
                     <img className={styles.im3}
-
                         src="images/bussiness-man.png"
                         alt="m2"
 
@@ -41,24 +38,16 @@ export default function Aboutus() {
                 </div>
                 <div className={styles.column}>
                     <img className={styles.im1}
-
                         src="images/man.png"
                         alt="m3"
                     />
-
                 </div>
                 <div>
                     <img className={styles.im2} src="images/woman.png"
                         alt="m5"
                     />
                 </div>
-                <video className={styles.yay} autoplay muted loop id="myVideo">
-                    src="images/clouds.mp4" type="video/mp4"
-                </video>
-
-
-                  </div>
-            </>
-
-            );
-    };
+            </div>
+        </>
+    );
+};

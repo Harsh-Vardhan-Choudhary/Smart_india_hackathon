@@ -12,7 +12,7 @@
 }
 
 .div_main {
-    width: 75vw;
+    width: 80vw;
     margin: 3vh auto;
     background-color: var(--color--blue);
     height: 50vh;
@@ -39,7 +39,7 @@
 }
 
 .card1 {
-    width: 75vw;
+    width: 80vw;
     margin: 3vh auto;
     background-color: var(--color--orange);
     height: 30vh;

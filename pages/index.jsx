@@ -4,6 +4,33 @@ import Link from 'next/link';
 
 import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
+import Scholarship_card from '../components/Scholarship_card/Scholarship_card';
+
+import { initializeApp } from "firebase/app";
+import { getFirestore, 
+collection, 
+getDocs} from "firebase/firestore";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyABKX9ppBozwOawb5xLRjT0nkTnzv4og7U",
+  authDomain: "smart-india-hackathon-542ea.firebaseapp.com",
+  projectId: "smart-india-hackathon-542ea",
+  storageBucket: "smart-india-hackathon-542ea.appspot.com",
+  messagingSenderId: "1041313564863",
+  appId: "1:1041313564863:web:37d0f9e1b4f536f95cde0a",
+  measurementId: "G-EXCLTBZBRP"
+};
+
+initializeApp(firebaseConfig)
+
+const db = getFirestore()
+
+const colRef = collection(db, 'Details')
+
+getDocs(colRef)
+  .then((snpashot) => {
+    console.log(snpashot.docs)
+  })
 
 export default function Home() {
   return (
@@ -42,7 +69,7 @@ export default function Home() {
           aliquam quidem neque deserunt, impedit veritatis!
         </div>
       </div>
-      <br />
+      <Scholarship_card/>
       <Footer />
     </div>
   )
