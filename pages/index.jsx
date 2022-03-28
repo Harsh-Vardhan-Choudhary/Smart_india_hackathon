@@ -13,8 +13,8 @@ export default function Home() {
     <div>
       <Navbar />
       <Featured />
-      
-      
+
+
       <div className={styles.div_main}>
         <div className={styles.div_containt}>
           <h2> Why do we need Scholarship ? </h2> <br />
@@ -27,14 +27,16 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.btn}>
-        <div className={styles.btn1}>
+        {/* <div className={styles.btn1}>
           <Link href="./Sortedscholarship.jsx"><button type={styles.text}> apply   </button></Link>
-          
-         
+        </div> */}
+        <div className={styles.btn1}>
+          {/* <Link href="./Sortedscholarship"><button type={styles.text}> no use of this button </button></Link> */}
+          <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
         </div>
         <div className={styles.btn1}>
-         
-        <Link href="./Sortedscholarship"><button type={styles.text}> no use of this button </button></Link>
+          <button type={styles.text}> View All Scholarship </button>
+
         </div>
       </div>
       <div className={styles.card}>
@@ -51,7 +53,7 @@ export default function Home() {
           aliquam quidem neque deserunt, impedit veritatis!
         </div>
       </div>
-      
+
       <br />
       <Footer />
     </div>

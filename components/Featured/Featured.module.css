@@ -1,13 +1,13 @@
 .container {
     height: calc(100vh - 100px);
-    background-color: #79c769;
+    background-color: #C7B569;
+    ;
     position: relative;
 }
 
 .arrowContainer {
     position: absolute;
     width: 10%;
-    height: 20%;
     top: 0;
     bottom: 0;
     margin: auto;

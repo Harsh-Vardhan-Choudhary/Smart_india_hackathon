@@ -1,9 +1,175 @@
-.dropdown {
-    width: 20%;
-    margin: 5px;
+/**{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: poppins,sans-serif;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Spartan:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=IBM+Plex+Sans+Thai:wght@300&family=Spartan:wght@200;300&display=swap');
+
+/*.body{
+    display: flex;
+    height: 200vh;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background:#cacaca;
+    
+    
+   
+}*/
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 25px 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 300px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 100px;
 }
 
-.btn-reset {
-    background-color: yellow;
-    color: black;
+.w {
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    left: 550px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: black;
+}
+
+.user_details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.input_box {
+    margin-bottom: 5px;
+    width: calc(100% / 2 - 20px);
+}
+
+.input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 10px;
+    transition: all 0.3s ease;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.details {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input_box_input:focus,
+.input_box_input:valid {
+    border-color: #cacaca;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.category {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 18px;
+    width: 18px;
+    background: blueviolet;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.A_dot_1:checked~.category_label.one,
+.A_dot_2:checked~.category_label.two,
+.A_dot_3:checked~.category_label.three {
+    border-color: blueviolet;
+    background: #cacaca;
+}
+
+.input[type="radio"] {
+    display: none;
+}
+
+.button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+.button {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.button:hover {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.o {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 530px;
+}
+
+.k {
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    left: 390px;
+}
+
+.tudum {
+    position: relative;
+    left: 200px;
 }

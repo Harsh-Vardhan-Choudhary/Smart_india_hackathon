@@ -1,12 +1,12 @@
 import React from 'react'
-import "./Eleborated.css"
+import styles from "./Eleborated.module.css"
 
 export default function Eleborated() {
     return (
         <>
-            <div className="wrapper_eleborated">
-                <img className="img_eleborated" src="" slt=""></img>
-                <div className="content_eleborated">
+            <div className={styles.wrapper_eleborated}>
+            <img className={styles.img_eleborated} src="" slt=""></img>
+                <div className={styles.content_eleborate}d>
                     <h1>Scholarship Name</h1>
                     <br></br>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda voluptas consequatur incidunt
@@ -19,7 +19,7 @@ export default function Eleborated() {
                     <br></br>
                 </div>
             </div>
-            <div className="content_eleborated2">
+            <div className={styles.content_eleborated2}>
                 <h1>Description</h1>
                 <br></br>
                 <ul>
