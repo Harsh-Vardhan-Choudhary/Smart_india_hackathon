@@ -1,17 +1,23 @@
 import styles from '../styles/Home.module.css'
 
-import Link from 'next/link';
-
+import Link from 'next/link'
+import Featured from "../components/Featured/Featured"
 import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
+
+import Image from 'next/image';
+import { Carousel } from 'react-responsive-carousel';
 
 export default function Home() {
   return (
     <div>
       <Navbar />
+      <Featured />
+      
+      
       <div className={styles.div_main}>
         <div className={styles.div_containt}>
-          <h2> Lorem ipsum dolor sit amet consectetur. </h2> <br />
+          <h2> Why do we need Scholarship ? </h2> <br />
           <p className={styles.lorem}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quas
             repudiandae corporis placeat quaerat aliquid nemo iusto architecto
@@ -22,10 +28,13 @@ export default function Home() {
       </div>
       <div className={styles.btn}>
         <div className={styles.btn1}>
-          <Link href="./Sortedscholarship"><button type={styles.text}> browse more  </button></Link>
+          <Link href="./Sortedscholarship.jsx"><button type={styles.text}> apply   </button></Link>
+          
+         
         </div>
         <div className={styles.btn1}>
-          <button type={styles.text}> no use of this button </button>
+         
+        <Link href="./Sortedscholarship"><button type={styles.text}> no use of this button </button></Link>
         </div>
       </div>
       <div className={styles.card}>
@@ -42,6 +51,7 @@ export default function Home() {
           aliquam quidem neque deserunt, impedit veritatis!
         </div>
       </div>
+      
       <br />
       <Footer />
     </div>

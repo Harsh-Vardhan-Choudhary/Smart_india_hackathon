@@ -52,7 +52,7 @@ function Mainpage() {
             </div>
             <div className="btn1">
               {" "}
-              <button type="text"> browse more </button>
+              <button type="text"> browse more  helo </button>
             </div>
           </div>{" "}
           <div className="card">
@@ -72,9 +72,9 @@ function Mainpage() {
               aliquam quidem neque deserunt, impedit veritatis!{" "}
             </div>{" "}
           </div>
-          <br />
+          {/* <br />
           <Scholarship_card />
-          <Scholarship_card />
+          <Scholarship_card /> */}
           <export Eleborated />
           <Footer />
         </StyledApp>{" "}

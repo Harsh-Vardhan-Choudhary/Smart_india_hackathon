@@ -52,8 +52,8 @@ export default function Aboutus() {
                         alt="m5"
                     />
                 </div>
-                <video className={styles.yay} autoplay muted loop id="myVideo">
-                    src="images/clouds.mp4" type="video/mp4"
+                <video className={styles.yay} autoplay muted loop id="myVideo"  src="images/clouds.mp4" type="video/mp4">
+                   
                 </video>
 
 
