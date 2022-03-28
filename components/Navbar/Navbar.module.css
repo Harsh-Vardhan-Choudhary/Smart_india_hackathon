@@ -1,5 +1,5 @@
 .nav{
-    background:#cacaca;
+    background: #e2ad71;
     margin-bottom: 1rem;
     
 }
@@ -23,7 +23,7 @@
 .nav_ul_li{
     /* float: left; */
     display: inline-block;
-    background: #cacaca;
+    background: #e2ad71;
     margin: 0 5px;
 }
 .nav_ul_li_a{
@@ -47,7 +47,7 @@
     width: 250px;
     float: none;
     display: list-item;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(253, 246, 246, 0.3);
 }
 .nav_ul_ul_ul_li{
     position:realtive;

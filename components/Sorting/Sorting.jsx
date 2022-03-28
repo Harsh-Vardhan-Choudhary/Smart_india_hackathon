@@ -9,11 +9,12 @@ import Link from 'next/link';
 export default function Sorting() {
     return (
         <>
-            <h1 className={styles.w}>Welcome</h1>
-            <p className={styles.o}><em>For Academic year 2022-23</em></p>
-            <p className={styles.k}><em>(Fill in the entries appropriately as per your official documents and  government's guidlines.)</em></p>
+            <div className="wrapper">
+                <h1 className={styles.w}>Welcome</h1>
+                <p className={styles.o}><em>For Academic year 2022-23</em></p>
+                <p className={styles.k}><em>(Fill in the entries appropriately as per your official documents and  government's guidlines.)</em></p>
+            </div>
             <div className={styles.container}>
-
                 <form action={styles.A}>
                     <div className={styles.user_details}>
                         <div className={styles.input_box}>

@@ -11,7 +11,7 @@ import { getFirestore,
 collection, 
 getDocs} from "firebase/firestore";
 
-const firebaseConfig = {
+const firebaseConfig = {  
   apiKey: "AIzaSyABKX9ppBozwOawb5xLRjT0nkTnzv4og7U",
   authDomain: "smart-india-hackathon-542ea.firebaseapp.com",
   projectId: "smart-india-hackathon-542ea",
