@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
-
-.footerfirst{
+.footerfirst {
     width: 100%;
     background-color: #e2ad71;
     color: black;
     font-family: 'Fredoka', sans-serif;
 }
-.f_clas{
+
+.f_clas {
     margin: auto;
     width: 75vw;
     height: 15vh;
@@ -15,32 +15,38 @@
     justify-content: end;
     align-items: flex-end;
 }
+
 @media only screen and (max-width: 800px) {
-    .f_clas{
+    .f_clas {
         height: 7.5vh;
     }
-  }
-.f_features{
+}
+
+.f_features {
     width: 70%;
     font-size: 2vw;
     font-weight: bold;
 }
-.f_about{
+
+.f_about {
     width: 10%;
     font-size: 1.5vw;
     font-weight: bold;
 }
-.f_blog{
+
+.f_blog {
     width: 10%;
     font-size: 1.5vw;
     font-weight: bold;
 }
-.f_support{
+
+.f_support {
     width: 10%;
     font-size: 1.5vw;
     font-weight: bold;
 }
-.icons{
+
+.icons {
     display: flex;
     flex-direction: row;
     height: 20vh;
@@ -50,22 +56,26 @@
     align-items: center;
     color: black;
 }
+
 @media only screen and (max-width: 800px) {
-    .icons{
+    .icons {
         height: 10vh;
     }
-  }
-.iconfirst{
+}
+
+.iconfirst {
     width: 30%;
     font-size: 3vw;
     align-self: center;
 }
-.icontwo{
+
+.icontwo {
     font-size: 2vw;
     align-self: center;
     font-weight: bold;
 }
-.footersecond{
+
+.footersecond {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,16 +85,17 @@
     background-color: #726046;
     color: white;
     width: 100%;
-
 }
+
 @media only screen and (max-width: 800px) {
-    .footersecond{
+    .footersecond {
         height: 4vh;
     }
-  }
-.sample2{
+}
+
+.sample2 {
     margin: 1rem auto 0rem auto;
     width: 75vw;
-    height: 0.2vw; 
+    height: 0.2vw;
     background-color: black;
 }

@@ -7,13 +7,18 @@ import Link from 'next/link';
 
 
 export default function Sorting() {
+
+    const handleChange = () => { };
+    const handleReset = () => { };
+
     return (
         <>
-            <div className="wrapper">
-                <h1 className={styles.w}>Welcome</h1>
-                <p className={styles.o}><em>For Academic year 2022-23</em></p>
-                <p className={styles.k}><em>(Fill in the entries appropriately as per your official documents and  government's guidlines.)</em></p>
-            </div>
+            <h1 className={styles.w}>Welcome</h1>
+            <br></br>
+            <p className={styles.o}><em>For Academic year 2022-23</em></p>
+            <p className={styles.k}><em>{"(Fill in the entries appropriately as per your official documents and  government's guidlines.)"}</em></p>
+            <br></br>
+            <br></br>
             <div className={styles.container}>
                 <form action={styles.A}>
                     <div className={styles.user_details}>
@@ -21,43 +26,44 @@ export default function Sorting() {
                             <span className={styles.details}>Student Name</span>
                             <input type="text" placeholder="Enter your name" required></input>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Date of birth</span>
-                            <label for="start"></label>
-
+                            <label htmlFor="start"></label>
                             <input type="date" id="start" name="trip-start"
                                 value="2022-04-01"
                                 min="2000-01-01" max="2022-12-31"></input>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Gender</span>
                             <select id="gender" name="gender">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                                 <option value="other">Other</option>
-
                             </select>
                         </div>
-
+                        <br></br>
                         <div className={styles.input_box}>
-                            <span className={styles.details}>Family's net income</span>
+                            <span className={styles.details}>{"Family's net income"}</span>
                             <input type="text" placeholder="In Rs." required></input>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Competitive exam</span>
-
                             <select id="Exam" name="Exam">
-
                                 <option value="JEE">JEE</option>
                                 <option value="NEET">NEET</option>
                                 <option value="IPmat">IPmat</option>
                                 <option value="CAT">CAT</option>
                                 <option value="CLAT">CLAT</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Domicile:</span>
-                            <select name="state" id="state" class="form-control">
+                            <select name="state" id="state" className="form-control">
                                 <option value="Andhra Pradesh">Andhra Pradesh</option>
                                 <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
                                 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -96,6 +102,7 @@ export default function Sorting() {
                                 <option value="West Bengal">West Bengal</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Minority</span>
                             <select id="mino" name="mino">
@@ -103,6 +110,7 @@ export default function Sorting() {
                                 <option value="noo">No</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Religion:</span>
                             <select id="dharm" name="dharm">
@@ -111,9 +119,11 @@ export default function Sorting() {
                                 <option value="jainism">Jainism</option>
                                 <option value="sikhism">Sikhism</option>
                                 <option value="christianity">Christianity</option>
+                                <option value="other">Other</option>
                             </select>
 
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Board Of Examination:</span>
 
@@ -126,9 +136,9 @@ export default function Sorting() {
                                 <option value="CLAT">Other</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Select your category:</span>
-
                             <select id="category" name="category">
                                 <option value="JEE">General</option>
                                 <option value="NEET">SC</option>
@@ -137,9 +147,9 @@ export default function Sorting() {
                                 <option value="CLAT">Other</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Nationality:</span>
-
                             <select id="country" name="country">
                                 <option value="Afganistan">Afghanistan</option>
                                 <option value="Albania">Albania</option>
@@ -389,22 +399,25 @@ export default function Sorting() {
                                 <option value="Zimbabwe">Zimbabwe</option>
                             </select>
                         </div>
-
+                        <br></br>
                         <div className={styles.input_box}>
-                            <span className={styles.details}>jee/neet/other's percentile:</span>
+                            <span className={styles.details}>Competitive Exam Percentile:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
+                        <br></br>
                         <div className={styles.tudum}>
-                            <span className={styles.details}>Obtained Marks in 12th:</span>
+                            <span className={styles.details}>Marks in 12th:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
                     </div>
+                    <br></br>
                     <div>
                         <Link href="./Sortedscholarship"><input className={styles.button} type="submit" value="Find for me"></input></Link>
                     </div>
                 </form>
             </div>
-
+            <br></br>
+            <br></br>
         </>
     );
-};
+}
