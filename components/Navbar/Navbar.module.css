@@ -1,6 +1,8 @@
 .nav{
     background: #e2ad71;
     margin-bottom: 1rem;
+    font-family: 'Spartan', sans-serif;
+    height: 150px;
     
 }
 .nav:after{
@@ -25,6 +27,8 @@
     display: inline-block;
     background: #e2ad71;
     margin: 0 5px;
+    position: relative;
+    bottom:260px ;
 }
 .nav_ul_li_a{
     color: black;
@@ -61,6 +65,11 @@
     font-weight: 600;
     line-height: 70px;
     padding-left: 30px;
+    position: relative;
+    bottom: 180px;
+    left: 140px;
+    width: 100%; 
+    height: 80px;
 }
 .nav_ul_li_a:hover{
     box-shadow:0 0 5px #f2f2f2,
@@ -84,3 +93,13 @@
     color: blueviolet;
     box-shadow: none;
 } 
+.glogo{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 15px;
+    position: relative;
+    bottom: 40px;
+}
