@@ -1,95 +1,86 @@
-            .nav {
-                background: #C7B569;
-                ;
-                margin-bottom: 1rem;
-            }
-            
-            .nav:after {
-                content: '';
-                clear: both;
-                display: table;
-            }
-            
-            .nav:after {
-                content: '';
-                clear: both;
-                display: table;
-            }
-            
-            .nav_ul {
-                float: right;
-                list-style: none;
-                margin-right: 70px;
-                position: relative;
-            }
-            
-            .nav_ul_li {
-                /* float: left; */
-                display: inline-block;
-                background: #C7B569;
-                ;
-                margin: 0 5px;
-            }
-            
-            .nav_ul_li_a {
-                color: black;
-                text-decoration: none;
-                line-height: 70px;
-                font-size: 18px;
-                padding: 8px 15px;
-            }
-            
-            .nav_ul_ul {
-                position: absolute;
-                top: 90px;
-                opacity: 0;
-                visibility: hidden;
-                transition: top .3s;
-            }
-            
-            .nav_ul_ul_li {
-                position: relative;
-                margin: 0px;
-                width: 250px;
-                float: none;
-                display: list-item;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-            }
-            
-            .nav_ul_ul_ul_li {
-                position: realtive;
-                top: -70px;
-                left: 150px;
-            }
-            
-            .logo {
-                float: left;
-                font-size: 35px;
-                font-weight: 600;
-                line-height: 70px;
-                padding-left: 30px;
-            }
-            
-            .nav_ul_li_a:hover {
-                box-shadow: 0 0 5px #f2f2f2, 0 0 5px #f2f2f2;
-                border-radius: 5px;
-                color: #103309;
-            }
-            
-            .nav_ul_li:hover>ul,
-            .ul_li:focus-within>ul,
-            .ul_li_ul:hover {
-                visibility: visible;
-                opacity: 1;
-                display: block;
-                top: 70px;
-            }
-            
-            .nav_ul_ul_li_a {
-                line-height: 50px;
-            }
-            
-            .nav_ul_ul_li_a:hover {
-                color: blueviolet;
-                box-shadow: none;
-            }
+.nav{
+    background: #e2ad71;
+    margin-bottom: 1rem;
+    
+}
+.nav:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.nav_ul{
+    float: right;
+    list-style: none;
+    margin-right: 70px;
+    position: relative;
+}
+.nav_ul_li{
+    /* float: left; */
+    display: inline-block;
+    background: #e2ad71;
+    margin: 0 5px;
+}
+.nav_ul_li_a{
+    color: black;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+} 
+
+.nav_ul_ul{
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top .3s;
+}
+.nav_ul_ul_li{
+    position: relative;
+    margin: 0px;
+    width: 250px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(253, 246, 246, 0.3);
+}
+.nav_ul_ul_ul_li{
+    position:realtive;
+    top: -70px;
+    left: 150px;
+}
+
+.logo {
+    float: left;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 30px;
+}
+.nav_ul_li_a:hover{
+    box-shadow:0 0 5px #f2f2f2,
+               0 0 5px #f2f2f2;
+    border-radius: 5px;
+    color:blueviolet;
+}
+ 
+.nav_ul_li:hover > ul,
+.ul_li:focus-within > ul,
+.ul_li_ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    top: 70px;
+}
+.nav_ul_ul_li_a{
+    line-height: 50px;
+}
+.nav_ul_ul_li_a:hover{
+    color: blueviolet;
+    box-shadow: none;
+} 

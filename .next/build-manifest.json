@@ -24,11 +24,14 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Sortedscholarship.js"
+<<<<<<< HEAD
     ],
     "/Sortingpage": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Sortingpage.js"
+=======
+>>>>>>> 1932540270acf87efb37e250fc0448ceeb401c68
     ],
     "/_app": [
       "static/chunks/webpack.js",

@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={styles.nav}>
-        <div className={styles.logo} href="./">Website name</div>
+        <div className={styles.logo} href="./">Getscholar</div>
         <ul className={styles.nav_ul}>
           <li className={styles.nav_ul_li}>
             <a href="./" className={styles.nav_ul_li_a}>Home</a>
