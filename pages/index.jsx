@@ -26,10 +26,10 @@ const db = getFirestore()
 
 const colRef = collection(db, 'Details')
 
-getDocs(colRef)
-  .then((snpashot) => {
-    console.log(snpashot.docs)
-  })
+// getDocs(colRef)
+//   .then((snpashot) => {
+//     console.log(snpashot.docs)
+//   })
 
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
