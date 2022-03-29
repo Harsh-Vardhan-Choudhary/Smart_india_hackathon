@@ -28,10 +28,10 @@ const db = getFirestore()
 
 const colRef = collection(db, 'Details')
 
-getDocs(colRef)
-  .then((snpashot) => {
-    console.log(snpashot.docs)
-  })
+// getDocs(colRef)
+//   .then((snpashot) => {
+//     console.log(snpashot.docs)
+//   })
 
 export default function Home() {
   return (
