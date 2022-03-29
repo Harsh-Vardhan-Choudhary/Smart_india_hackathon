@@ -1,5 +1,4 @@
 import styles from '../styles/Home.module.css'
-
 import Link from 'next/link'
 import Featured from "../components/Featured/Featured"
 import Navbar from "../components/Navbar/Navbar"
@@ -13,8 +12,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Featured />
-
-
+                                                         
       <div className={styles.div_main}>
         <div className={styles.div_containt}>
           <h2> Why do we need Scholarship ? </h2> <br />
