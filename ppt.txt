@@ -1,0 +1,65 @@
+at first we made a static files a simple layout 
+
+intro
+-------
+we build a modern website that showcases the sorting of list of scholarships including national and international ones. 
+user visiting our website will be given options to choose bwtween applying and view alll available scholarships details.
+
+
+tools used are :
+------------------
+javascript react (jsx)
+css (cascade styling sheet)
+nextjs ( framework for integrating our website)
+
+
+backend work include :
+-------------------
+storing user database using sql/firebase(depends)
+a well structured way is being organised from navbar to footer of the mainpage.
+many pages including sortingpage , scholarshipcard(many scholarships) .
+
+
+
+####################################################################
+"Background: India as we know is a densely populated country and every year more than 6 crores of Indians graduates from
+diverse backgrounds and with diversity in education. Almost similar number of students enter into colleges for taking 
+various education to help them in seeking jobs. With time students also look for good scholarships based on the merit, 
+skills, income, etc. Getting scholarships would help such students to even excel more. Summary: With growing technology 
+and market scholarships in the market is also increasing but is the data is not confined to one place. People have to 
+find various places to check for good scholarships. Addressing this problem will help in knowing various national and 
+international scholarships. ALos it will encourage students to increase their merit to get such scholarships for better 
+future. Objective: : We need you to develop a portal where various National and International scholarships based on merit, 
+study field, income etc. are shown up. This should be a real time data management which should be updated with the latest 
+scholarships that are being offered."
+
+
+what we have done about problem and our ideology 
+-------------------------------------------------
+We tried to present a place for students to search for different scholarships available according to their qualifications and acedemic achievements.
+below is a map/ss/photo representing the sorting page which includes 12th marks, competitve exams given, category, etc.
+ 
+Our idealogy include making students aware of tons of scholarship available as a kick start for financially deprived ones. About 60% of them arent aware of 
+scholarships which leads them to quit their dreams. 
+
+A place where knowledge about scholarship wont be confined, but you would be given diversity about searcing to excel your mindset a way ahead to carrier.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
