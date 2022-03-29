@@ -5,11 +5,11 @@ export default function Eleborated() {
     return (
         <>
             <div className={styles.wrapper_eleborated}>
-                <img className={styles.img_eleborated} src="" slt=""></img>
-                <div className={styles.content_eleborate} d>
-                    <h1>Scholarship Name</h1>
+            <img className={styles.img_eleborated} src="" slt=""></img>
+                <div className={styles.content_eleborate}d>
+                    <h1>Pre Matric Scholarships Scheme for Minorities</h1>
                     <br></br>
-                    {"Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda voluptas consequatur incidunt laboriosam distinctio tempore illum eveniet natus beatae inventore reprehenderit fuga et fugiat dolorem veniam repudiandae, ipsum aut nemo. A nemo unde voluptate blanditiis, rerum quia neque hic saepe, perspiciatis nostrum mollitia ipsam nulla error vel quo at, maxime in sed explicabo adipisci suscipit nihil aperiam consequuntur. Ea eaque beatae nam. Mollitia enim blanditiis vel consequuntur exercitationem maiores sint tempora iusto provident voluptatem velit, commodi accusantium vero incidunt, temporibus neque placeat non aperiam rem earum labore esse? Doloribus natus sed ea dicta quae excepturi facilis cum illum accusamus."}
+                    <h3>The scholarship at pre-matric level will encourage parents from minority communities to send their school going children to school, lighten their financial burden on school education and sustain their efforts to support their children to complete school education.</h3>
                     <br></br>
                     <br></br>
                 </div>
@@ -19,23 +19,12 @@ export default function Eleborated() {
                 <br></br>
                 <ul>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis Dolor ad minus deleniti, unde nulla ea."}
+                    The scheme will form the foundation for their educational attainment and provide a level playing field in the competitive employment arena. 
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis Dolor ad minus deleniti, unde nulla ea."}
+                    Empowerment through education, which is one of the objectives of this scheme, has the potential to lead to upliftment of the socio economic conditions of the minority communities.
                     </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
+                    
                 </ul>
                 <br></br>
                 <br></br>
@@ -43,22 +32,27 @@ export default function Eleborated() {
                 <br></br>
                 <ul>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Domicile certificate for the respective state
+
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Self-declaration of minority community certificate by the student
+
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Self-attested copy of previous academic mark sheet
+
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Copy of Aadhar Enrollment/Aadhar Card
+
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Income certificate issued by designated state/UT authority
+
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Proof of bank account in the name of the student or joint account with mother/father
                     </li>
                 </ul>
                 <br></br>
@@ -67,23 +61,12 @@ export default function Eleborated() {
                 <br></br>
                 <ul>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    Scholarship will be awarded to the students who have secured not less than 50% marks in the previous final examination
                     </li>
                     <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
+                    annual income of their parents/guardian from all sources does not exceed Rs. 1.00 lakh.
                     </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
-                    <li>
-                        {"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis! Dolor ad minus deleniti, unde nulla ea."}
-                    </li>
+                    
                 </ul>
             </div>
         </>

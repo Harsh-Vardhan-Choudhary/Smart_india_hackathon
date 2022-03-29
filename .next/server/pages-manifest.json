@@ -1,5 +1,13 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/Aboutus": "pages/Aboutus.html",
+  "/Scholarshipeleborated": "pages/Scholarshipeleborated.html",
+  "/Scholarships": "pages/Scholarships.html",
+  "/Sortedscholarship": "pages/Sortedscholarship.html",
+  "/Sortingpage": "pages/Sortingpage.html",
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
 }
