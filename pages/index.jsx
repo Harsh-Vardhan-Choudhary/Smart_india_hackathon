@@ -27,16 +27,11 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.btn}>
-        {/* <div className={styles.btn1}>
-          <Link href="./Sortedscholarship.jsx"><button type={styles.text}> apply   </button></Link>
-        </div> */}
         <div className={styles.btn1}>
-          {/* <Link href="./Sortedscholarship"><button type={styles.text}> no use of this button </button></Link> */}
-          <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
+          <Link href="./Sortedscholarship.jsx"><button className="button button--ujarak button--border-medium button--round-s button--text-thick">Publish</button></Link>
         </div>
-        <div className={styles.btn1}>
-          <button type={styles.text}> View All Scholarship </button>
-
+        <div className={styles.btn2}>
+          <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
         </div>
       </div>
       <div className={styles.card}>

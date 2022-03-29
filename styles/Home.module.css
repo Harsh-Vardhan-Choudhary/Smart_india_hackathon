@@ -1,53 +1,100 @@
-            .button {
-                position: absolute;
-                top: 0;
-                left: 94%;
-            }
-            
-            @media only screen and (max-width: 800px) {
-                .button {
-                    left: 80%;
-                    border-radius: 2px;
-                }
-            }
-            
-            .div_main {
-                width: 75vw;
-                margin: 3vh auto;
-                /* background-color: var(--color--blue); */
-                height: 50vh;
-                font-size: 2vw;
-                border-radius: 1vw;
-                text-align: center;
-            }
-            
-            .div_containt {
-                font-size: larger;
-                font-weight: bold;
-            }
-            
-            .btn {
-                display: inline-flex;
-                flex-wrap: wrap;
-            }
-            
-            .btn-btn1 {
-                background: red;
-            }
-            
+                        .button {
+                            position: absolute;
+                            top: 0;
+                            left: 94%;
+                        }
+                        
+                        @media only screen and (max-width: 800px) {
+                            .button {
+                                left: 80%;
+                                border-radius: 2px;
+                            }
+                        }
+                        
+                        .div_main {
+                            width: 75vw;
+                            margin: 3vh auto;
+                            /* background-color: var(--color--blue); */
+                            height: 50vh;
+                            font-size: 2vw;
+                            border-radius: 1vw;
+                            text-align: center;
+                        }
+                        
+                        .div_containt {
+                            font-size: larger;
+                            font-weight: bold;
+                        }
+                        
+                        .btn {
+                            display: flex;
+                            flex-wrap: wrap;
+                            position: relative;
+                            left: 60vh;
+                        }
+                        
+                        .btn1 {
+                            position: relative;
+                            right: 30px;
+                        }
+                        
+                        .button--ujarak,
+                        .button--ujarak::before {
+                            transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+                        }
+                        
+                        .button--ujarak {
+                            -webkit-transition: border-color 0.4s, color 0.4s;
+                            transition: border-color 0.4s, color 0.4s;
+                        }
+                        
+                        .button--border-medium {
+                            border: 2px solid;
+                        }
+                        
+                        .button--round-s {
+                            border-radius: 5px;
+                        }
+                        
+                        .button--text-thick {
+                            font-weight: 600;
+                        }
+                        
+                        .button {
+                            float: left;
+                            min-width: 150px;
+                            max-width: 250px;
+                            display: block;
+                            margin: 1em;
+                            padding: 1em 2em;
+                            border: none;
+                            background: none;
+                            color: inherit;
+                            vertical-align: middle;
+                            position: relative;
+                            z-index: 1;
+                            -webkit-backface-visibility: hidden;
+                            -moz-osx-font-smoothing: grayscale;
+                        }
+                        
+                        .btn2 {
+                            position: relative;
+                            left: 40px;
+                        }
+                        /*             
             .btn>.btn1 {
                 margin: 45px;
                 position: relative;
                 left: 35rem;
-                /* HERE WE ADD THE SPACE */
             }
-            
-            .card1 {
-                width: 75vw;
-                margin: 3vh auto;
-                background-color: var(--color--orange);
-                height: 30vh;
-                font-size: 2vw;
-                border-radius: 1vw;
-                text-align: center;
-            }
+             */
+                        
+                        .card1 {
+                            width: 75vw;
+                            margin: 3vh auto;
+                            background-color: var(--color--orange);
+                            height: 30vh;
+                            font-size: 2vw;
+                            border-radius: 1vw;
+                            text-align: center;
+                        }
