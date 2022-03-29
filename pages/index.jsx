@@ -6,11 +6,13 @@ import Footer from "../components/Footer/Footer"
 import Scholarship_card from '../components/Scholarship_card/Scholarship_card';
 
 import { initializeApp } from "firebase/app";
-import { getFirestore, 
-collection, 
-getDocs} from "firebase/firestore";
+import {
+  getFirestore,
+  collection,
+  getDocs
+} from "firebase/firestore";
 
-const firebaseConfig = {  
+const firebaseConfig = {
   apiKey: "AIzaSyABKX9ppBozwOawb5xLRjT0nkTnzv4og7U",
   authDomain: "smart-india-hackathon-542ea.firebaseapp.com",
   projectId: "smart-india-hackathon-542ea",
@@ -30,9 +32,6 @@ getDocs(colRef)
   .then((snpashot) => {
     console.log(snpashot.docs)
   })
-
-import Image from 'next/image';
-import { Carousel } from 'react-responsive-carousel';
 
 export default function Home() {
   return (
@@ -61,7 +60,7 @@ export default function Home() {
       <div className={styles.card}>
         <div className={styles.card1}>
           Scholarships are awarded based upon various criteria, such as academic merit, diversity and inclusion, athletic skill, and financial need.
-</div>
+        </div>
         <div className={styles.card1}>
           Getting a scholarship takes away all your financial concerns.
           It helps in empowering your academic and career goals by removing the financial barrier
@@ -69,9 +68,9 @@ export default function Home() {
         </div>
         <div className={styles.card1}>
           Scholarship is to be created  not by compulsion  but by  awakening a pure interest in knowledge.
-           </div>
+        </div>
       </div>
-      <br />
+      <Scholarship_card />
       <Footer />
     </div>
   )
