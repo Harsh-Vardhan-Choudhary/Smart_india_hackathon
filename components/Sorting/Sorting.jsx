@@ -12,170 +12,58 @@ export default function Sorting() {
     const handleReset = () => { };
 
     return (
-
-        //  <>
-        //  <label>sortby :</label>
-        //  <select className='dropdown' name='colValue' onChange={handleChange}>
-        //      <option>Please select</option>
-        //      <option value="national">national </option>
-        //      <option value="inter-national">inter-national </option>
-        //  </select>
-
-        //  <button className='btn btn-reset' onClick={handleReset}></button>
-
-        //  </>
-
-
-        //     );
-        // }
-
-
-
-
-
-
-        //<>
-        //     <h1 class="w">Welcome</h1>
-        //     <p>For Academic year 2022-23</p>
-        //     <p>Fill in the entries appropriately.</p>
-        //     <div class="container">
-        //         <div class="title">Registration</div>
-        //         <form action="#">
-        //             <div class="user-details">
-        //                 <div class="input-box">
-        //                     <span class="details">Student Name</span>
-        //                     <input type="text" placeholder="Enter your name" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Date of birth</span>
-        //                     <input type="text" placeholder="as per 10th marksheet" required></input>
-        //                 </div>
-        //                 <div class="gender-details">
-        //                     <input type="radio" name="gender" id="dot-1"></input>
-        //                     <input type="radio" name="gender" id="dot-2"></input>
-        //                     <input type="radio" name="gender" id="dot-3"></input>
-        //                     <span class="gender-title">choose your gender</span>
-
-        //                     <div class="category">
-        //                         <label for="dot-1">
-        //                             <span class="dot one"></span>
-        //                             <span class="gender">Male</span>
-        //                         </label>
-        //                         <label for="dot-2">
-        //                             <span class="dot two"></span>
-        //                             <span class="gender">Female</span>
-        //                         </label>
-        //                         <label for="dot-3">
-        //                             <span class="dot three"></span>
-        //                             <span class="gender">Other</span>
-        //                         </label>
-        //                     </div>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Family's net income</span>
-        //                     <input type="text" placeholder="In Rs." required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Competitive exam given?</span>
-        //                     <input type="text" placeholder="yes or no" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Domicile:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Minority</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Religion:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Religion:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Enter your category:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Country name:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">Nationality:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">jee/neet/other's percentile:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-        //                 <div class="input-box">
-        //                     <span class="details">marks in 10th & 12th:</span>
-        //                     <input type="text" placeholder="" required></input>
-        //                 </div>
-
-
-        //             </div>
-        //             <div>
-        //                 <input class="button" type="submit" value="Find for me"></input>
-        //             </div>
-        //         </form>
-        //     </div>
-
         <>
-
-
-
             <h1 className={styles.w}>Welcome</h1>
+            <br></br>
             <p className={styles.o}><em>For Academic year 2022-23</em></p>
-            <p className={styles.k}><em>(Fill in the entries appropriately as per your official documents and  government's guidlines.)</em></p>
+            <p className={styles.k}><em>{"(Fill in the entries appropriately as per your official documents and  government's guidlines.)"}</em></p>
+            <br></br>
+            <br></br>
             <div className={styles.container}>
-
                 <form action={styles.A}>
                     <div className={styles.user_details}>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Student Name</span>
                             <input type="text" placeholder="Enter your name" required></input>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Date of birth</span>
-                            <label for="start"></label>
-
+                            <label htmlFor="start"></label>
                             <input type="date" id="start" name="trip-start"
                                 value="2022-04-01"
                                 min="2000-01-01" max="2022-12-31"></input>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Gender</span>
                             <select id="gender" name="gender">
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
                                 <option value="other">Other</option>
-
                             </select>
                         </div>
-
+                        <br></br>
                         <div className={styles.input_box}>
-                            <span className={styles.details}>Family's net income</span>
+                            <span className={styles.details}>{"Family's net income"}</span>
                             <input type="text" placeholder="In Rs." required></input>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Competitive exam</span>
-
                             <select id="Exam" name="Exam">
-
                                 <option value="JEE">JEE</option>
                                 <option value="NEET">NEET</option>
                                 <option value="IPmat">IPmat</option>
                                 <option value="CAT">CAT</option>
                                 <option value="CLAT">CLAT</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Domicile:</span>
-                            <select name="state" id="state" class="form-control">
+                            <select name="state" id="state" className="form-control">
                                 <option value="Andhra Pradesh">Andhra Pradesh</option>
                                 <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
                                 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -214,6 +102,7 @@ export default function Sorting() {
                                 <option value="West Bengal">West Bengal</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Minority</span>
                             <select id="mino" name="mino">
@@ -221,6 +110,7 @@ export default function Sorting() {
                                 <option value="noo">No</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Religion:</span>
                             <select id="dharm" name="dharm">
@@ -229,9 +119,11 @@ export default function Sorting() {
                                 <option value="jainism">Jainism</option>
                                 <option value="sikhism">Sikhism</option>
                                 <option value="christianity">Christianity</option>
+                                <option value="other">Other</option>
                             </select>
 
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Board Of Examination:</span>
 
@@ -244,9 +136,9 @@ export default function Sorting() {
                                 <option value="CLAT">Other</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Select your category:</span>
-
                             <select id="category" name="category">
                                 <option value="JEE">General</option>
                                 <option value="NEET">SC</option>
@@ -255,9 +147,9 @@ export default function Sorting() {
                                 <option value="CLAT">Other</option>
                             </select>
                         </div>
+                        <br></br>
                         <div className={styles.input_box}>
                             <span className={styles.details}>Nationality:</span>
-
                             <select id="country" name="country">
                                 <option value="Afganistan">Afghanistan</option>
                                 <option value="Albania">Albania</option>
@@ -507,22 +399,25 @@ export default function Sorting() {
                                 <option value="Zimbabwe">Zimbabwe</option>
                             </select>
                         </div>
-
+                        <br></br>
                         <div className={styles.input_box}>
-                            <span className={styles.details}>jee/neet/other's percentile:</span>
+                            <span className={styles.details}>Competitive Exam Percentile:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
+                        <br></br>
                         <div className={styles.tudum}>
-                            <span className={styles.details}>Obtained Marks in 12th:</span>
+                            <span className={styles.details}>Marks in 12th:</span>
                             <input type="text" placeholder="" required></input>
                         </div>
                     </div>
+                    <br></br>
                     <div>
                         <Link href="./Sortedscholarship"><input className={styles.button} type="submit" value="Find for me"></input></Link>
                     </div>
                 </form>
             </div>
-
+            <br></br>
+            <br></br>
         </>
     );
 }

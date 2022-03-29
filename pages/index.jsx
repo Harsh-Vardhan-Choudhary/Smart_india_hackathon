@@ -3,6 +3,33 @@ import Link from 'next/link'
 import Featured from "../components/Featured/Featured"
 import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
+import Scholarship_card from '../components/Scholarship_card/Scholarship_card';
+
+import { initializeApp } from "firebase/app";
+import { getFirestore, 
+collection, 
+getDocs} from "firebase/firestore";
+
+const firebaseConfig = {  
+  apiKey: "AIzaSyABKX9ppBozwOawb5xLRjT0nkTnzv4og7U",
+  authDomain: "smart-india-hackathon-542ea.firebaseapp.com",
+  projectId: "smart-india-hackathon-542ea",
+  storageBucket: "smart-india-hackathon-542ea.appspot.com",
+  messagingSenderId: "1041313564863",
+  appId: "1:1041313564863:web:37d0f9e1b4f536f95cde0a",
+  measurementId: "G-EXCLTBZBRP"
+};
+
+initializeApp(firebaseConfig)
+
+const db = getFirestore()
+
+const colRef = collection(db, 'Details')
+
+getDocs(colRef)
+  .then((snpashot) => {
+    console.log(snpashot.docs)
+  })
 
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
@@ -12,7 +39,6 @@ export default function Home() {
     <div>
       <Navbar />
       <Featured />
-
       <div className={styles.div_main}>
         <div className={styles.div_containt}>
           <h2> Why do we need Scholarship ? </h2> <br />
@@ -25,16 +51,11 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.btn}>
-        {/* <div className={styles.btn1}>
-          <Link href="./Sortedscholarship.jsx"><button type={styles.text}> apply   </button></Link>
-        </div> */}
         <div className={styles.btn1}>
-          {/* <Link href="./Sortedscholarship"><button type={styles.text}> no use of this button </button></Link> */}
           <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
         </div>
         <div className={styles.btn1}>
           <button type={styles.text}> View All Scholarship </button>
-
         </div>
       </div>
       <div className={styles.card}>
@@ -50,7 +71,6 @@ export default function Home() {
           Scholarship is to be created  not by compulsion  but by  awakening a pure interest in knowledge.
            </div>
       </div>
-
       <br />
       <Footer />
     </div>

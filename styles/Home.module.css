@@ -1,53 +1,53 @@
-            .button {
-                position: absolute;
-                top: 0;
-                left: 94%;
-            }
-            
-            @media only screen and (max-width: 800px) {
-                .button {
-                    left: 80%;
-                    border-radius: 2px;
-                }
-            }
-            
-            .div_main {
-                width: 75vw;
-                margin: 3vh auto;
-                /* background-color: var(--color--blue); */
-                height: 50vh;
-                font-size: 2vw;
-                border-radius: 1vw;
-                text-align: center;
-            }
-            
-            .div_containt {
-                font-size: larger;
-                font-weight: bold;
-            }
-            
-            .btn {
-                display: inline-flex;
-                flex-wrap: wrap;
-            }
-            
-            .btn-btn1 {
-                background: red;
-            }
-            
-            .btn>.btn1 {
-                margin: 45px;
-                position: relative;
-                left: 35rem;
-                /* HERE WE ADD THE SPACE */
-            }
-            
-            .card1 {
-                width: 75vw;
-                margin: 3vh auto;
-                background-color: var(--color--orange);
-                height: 30vh;
-                font-size: 2vw;
-                border-radius: 1vw;
-                text-align: center;
-            }
+.button {
+    position: absolute;
+    top: 0;
+    left: 94%;
+}
+
+@media only screen and (max-width: 800px) {
+    .button {
+        left: 80%;
+        border-radius: 2px;
+    }
+}
+
+.div_main {
+    width: 75vw;
+    margin: 3vh auto;
+    /* background-color: var(--color--blue); */
+    height: 50vh;
+    font-size: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+}
+
+.div_containt {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.btn-btn1 {
+    background: red;
+}
+
+.btn>.btn1 {
+    margin: 45px;
+    position: relative;
+    left: 35rem;
+    /* HERE WE ADD THE SPACE */
+}
+
+.card1 {
+    width: 75vw;
+    margin: 3vh auto;
+    background-color: var(--color--orange);
+    height: 30vh;
+    font-size: 2vw;
+    border-radius: 1vw;
+    text-align: center;
+}

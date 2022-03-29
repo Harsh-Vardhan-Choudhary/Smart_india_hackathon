@@ -1,6 +1,17 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/Sortedscholarship": "pages/Sortedscholarship.js"
+=======
+  "/Aboutus": "pages/Aboutus.html",
+  "/Scholarshipeleborated": "pages/Scholarshipeleborated.html",
+  "/Scholarships": "pages/Scholarships.html",
+  "/Sortedscholarship": "pages/Sortedscholarship.html",
+  "/Sortingpage": "pages/Sortingpage.html",
+  "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/404": "pages/404.html"
+>>>>>>> 4d621a57b0290359b3dc90e24a7c5b8af9fb8831
 }
