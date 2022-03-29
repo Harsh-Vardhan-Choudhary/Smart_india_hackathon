@@ -9,8 +9,7 @@ export default function Eleborated() {
                 <div className={styles.content_eleborate}d>
                     <h1>Pre Matric Scholarships Scheme for Minorities</h1>
                     <br></br>
-                    The scholarship at pre-matric level will encourage parents from minority communities to send their school going children to school, lighten their financial burden on school education and sustain their efforts to support their children to complete school education.The scheme will form the foundation for their educational attainment and provide a level playing field in the competitive employment arena. Empowerment through education, which is one of the objectives of this scheme, has the potential to lead to upliftment of the socio economic conditions of the minority communities.
-
+                    <h3>The scholarship at pre-matric level will encourage parents from minority communities to send their school going children to school, lighten their financial burden on school education and sustain their efforts to support their children to complete school education.</h3>
                     <br></br>
                     <br></br>
                 </div>
@@ -20,41 +19,12 @@ export default function Eleborated() {
                 <br></br>
                 <ul>
                     <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
+                    The scheme will form the foundation for their educational attainment and provide a level playing field in the competitive employment arena. 
                     </li>
                     <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
+                    Empowerment through education, which is one of the objectives of this scheme, has the potential to lead to upliftment of the socio economic conditions of the minority communities.
                     </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
+                    
                 </ul>
                 <br></br>
                 <br></br>
@@ -91,41 +61,12 @@ export default function Eleborated() {
                 <br></br>
                 <ul>
                     <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
+                    Scholarship will be awarded to the students who have secured not less than 50% marks in the previous final examination
                     </li>
                     <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
+                    annual income of their parents/guardian from all sources does not exceed Rs. 1.00 lakh.
                     </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda saepe commodi porro labore facere quae ex, velit debitis
-                        maiores obcaecati officiis corporis dolor. Hic explicabo quae illo, libero officiis qui laborum debitis. Voluptas maiores sed
-                        aspernatur illo excepturi architecto, ut labore dolore ad cum nostrum rerum animi hic asperiores nemo dolorum ea blanditiis!
-                        Dolor ad minus deleniti, unde nulla ea.
-                    </li>
+                    
                 </ul>
             </div>
         </>
