@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
 import Scholarship_card from '../components/Scholarship_card/Scholarship_card';
 
+import Head from 'next/head'
+
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
@@ -28,14 +30,18 @@ const db = getFirestore()
 
 const colRef = collection(db, 'Details')
 
-// getDocs(colRef)
-//   .then((snpashot) => {
-//     console.log(snpashot.docs)
-//   })
+getDocs(colRef)
+  .then((snpashot) => {
+    console.log(snpashot.docs)
+  })
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Getscholar</title>
+        <link rel="icon" href="/favicon.ico" ></link>
+      </Head>
       <Navbar />
       <Featured />
       <div className={styles.div_main}>

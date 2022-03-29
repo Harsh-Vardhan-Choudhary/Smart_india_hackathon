@@ -9,9 +9,9 @@ export default function SortedScholarship() {
   return (
     <div>
       <Navbar/>
+      <Scholarship_card3/>
       <Scholarship_card/>
       <Scholarship_card2/>
-      <Scholarship_card3/>
       <Scholarship_card4/>
       <Footer/>
     </div>
