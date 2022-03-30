@@ -22,9 +22,6 @@ export default function Scholarship_card() {
                         <ul>
                             <li>Scholarship will be awarded to the students who have secured not less than 50% marks in the previous final examination.</li>
                             <li>Annual income of their parents/guardian from all sources does not exceed Rs. 1.00 lakh.</li>
-
-
-
                         </ul>
                     </div>
                 </div>

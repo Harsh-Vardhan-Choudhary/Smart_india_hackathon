@@ -24,6 +24,7 @@ const firebaseConfig = {
   measurementId: "G-EXCLTBZBRP"
 };
 
+
 initializeApp(firebaseConfig)
 
 const db = getFirestore()
@@ -45,25 +46,38 @@ export default function Home() {
       <Navbar />
       <Featured />
       <div className={styles.div_main}>
+        <img src="/images/scholar.png" className={styles.img_main}></img>
         <div className={styles.div_containt}>
           <h2> Why do we need Scholarship ? </h2> <br />
-          <p className={styles.lorem}>
-            <h4> A scholarship is a form of financial aid awarded to students to further their education.
-              While scholarship recipients are not required to repay scholarships, the awards may require that the recipient continue to meet certain requirements during their period of support, such maintaining a minimum grade point average or engaging in a certain activity e.g., playing on a school sports team for athletic scholarship holders, or serving as a teaching assistant for some graduate scholarships.
-
-            </h4>
-          </p>
         </div>
       </div>
+      <p className={styles.lorem}>
+        <h4> A scholarship is a form of financial aid awarded to students to further their education.
+          While scholarship recipients are not required to repay scholarships, the awards may require that the recipient continue to meet certain requirements during their period of support, such maintaining a minimum grade point average or engaging in a certain activity e.g., playing on a school sports team for athletic scholarship holders, or serving as a teaching assistant for some graduate scholarships.
+        </h4>
+      </p>
       <div className={styles.btn}>
-        <div className={styles.btn1}>
-          <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
+        <div >
+          <Link href="./Sortingpage"><button type={styles.text} className={styles.btn1}> Find Your Scholarship Now </button></Link>
         </div>
-        <div className={styles.btn1}>
-          <button type={styles.text}> View All Scholarship </button>
+        <div>
+          <Link href="./Sortedscholarship"><button type={styles.text} className={styles.btn1}> View All Scholarship </button></Link>
         </div>
       </div>
-      <div className={styles.card}>
+      <div className={styles.front_card_main}>
+        <div className={styles.front_card}>
+        {"Scholarships are awarded based upon various criteria, such as academic merit, diversity and inclusion, athletic skill, and financial need."}
+        </div>
+        <div className={styles.front_card}>
+        Getting a scholarship takes away all your financial concerns.
+          It helps in empowering your academic and career goals by removing the financial barrier
+          Over 1.7 million scholarships are awarded annually. However, only 7% of college students will receive a scholarship.
+        </div>
+        <div className={styles.front_card}>
+        Scholarship is to be created  not by compulsion  but by  awakening a pure interest in knowledge.
+        </div>
+      </div>
+      {/* <div className={styles.card}>
         <div className={styles.card1}>
           Scholarships are awarded based upon various criteria, such as academic merit, diversity and inclusion, athletic skill, and financial need.
         </div>
@@ -75,7 +89,7 @@ export default function Home() {
         <div className={styles.card1}>
           Scholarship is to be created  not by compulsion  but by  awakening a pure interest in knowledge.
         </div>
-      </div>
+      </div> */}
       <Scholarship_card />
       <Footer />
     </div>
