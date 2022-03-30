@@ -5,6 +5,8 @@ import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer/Footer"
 import Scholarship_card from '../components/Scholarship_card/Scholarship_card';
 
+import Head from 'next/head'
+
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
@@ -28,14 +30,18 @@ const db = getFirestore()
 
 const colRef = collection(db, 'Details')
 
-// getDocs(colRef)
-//   .then((snpashot) => {
-//     console.log(snpashot.docs)
-//   })
+getDocs(colRef)
+  .then((snpashot) => {
+    console.log(snpashot.docs)
+  })
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Getscholar</title>
+        <link rel="icon" href="/favicon.ico" ></link>
+      </Head>
       <Navbar />
       <Featured />
       <div className={styles.div_main}>
@@ -51,17 +57,10 @@ export default function Home() {
       </div>
       <div className={styles.btn}>
         <div className={styles.btn1}>
-<<<<<<< HEAD
-          <Link href="./Sortedscholarship.jsx"><button className="button button--ujarak button--border-medium button--round-s button--text-thick">Publish</button></Link>
-        </div>
-        <div className={styles.btn2}>
-          <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
-=======
           <Link href="./Sortingpage"><button type={styles.text}> Find Your Scholarship Now </button></Link>
         </div>
         <div className={styles.btn1}>
           <button type={styles.text}> View All Scholarship </button>
->>>>>>> 1932540270acf87efb37e250fc0448ceeb401c68
         </div>
       </div>
       <div className={styles.card}>
