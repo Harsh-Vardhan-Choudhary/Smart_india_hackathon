@@ -1,8 +1,7 @@
 .container {
-    height: calc(100vh - 100px);
+    height: 100vh;
     background-color: #e2ad71;
-    ;
-    position: relative;
+    margin: 5rem 0 0 0;
 }
 
 .arrowContainer {

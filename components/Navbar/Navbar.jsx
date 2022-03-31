@@ -8,6 +8,7 @@ export default function Navbar() {
   return (
     <>
       <nav className={styles.nav}>
+      {/* <img className={styles.glogo} src="images/Getscholar-removebg-preview.png" alt="t"></img> */}
         <div className={styles.logo} href="./">Getscholar</div>
         <ul className={styles.nav_ul}>
           <li className={styles.nav_ul_li}>

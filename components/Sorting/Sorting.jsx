@@ -4,8 +4,6 @@ import styles from "./Sorting.module.css"
 
 import Link from 'next/link';
 
-
-
 export default function Sorting() {
 
     const handleChange = () => { };
@@ -31,8 +29,8 @@ export default function Sorting() {
                             <span className={styles.details}>Date of birth</span>
                             <label htmlFor="start"></label>
                             <input type="date" id="start" name="trip-start"
-                                value="2022-04-01"
-                                min="2000-01-01" max="2022-12-31"></input>
+                                value=""
+                                min="2000-01-01" max="2022-01-01"></input>
                         </div>
                         <br></br>
                         <div className={styles.input_box}>

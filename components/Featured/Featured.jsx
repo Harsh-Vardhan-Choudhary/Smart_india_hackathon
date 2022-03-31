@@ -35,7 +35,6 @@ const Featured = () => {
         <Image src = "/images/arrowr.png" layout="fill" alt="" objectFit="contain"/>
       </div>
     </div>
-   
   );
 };
 
